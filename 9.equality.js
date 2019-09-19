@@ -1,7 +1,10 @@
-var name = "Daniel";
-var name2 = `${name}`
+var num = "1";
+var num2 = 1
 
-console.log(name == name2)
+console.log(num == num2)
+console.log(num === num2)
+
+console.log(String([]) == "0")
 
 var day = { holiday: null }
 var day2 = {}
